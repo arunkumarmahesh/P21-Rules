@@ -1,0 +1,6 @@
+"rule","name","items","passes","fails","nNA","error","warning","expression","message"
+"SD1001","V1",1671,1669,2,0,FALSE,FALSE,"is_unique(SUBJID)","Duplicate SUBJID"
+"SD1334","V1",1671,554,1117,0,FALSE,FALSE,"RFICDTC < RFSTDTC","RFICDTC is after RFSTDTC"
+"SD0079","V1",1116,1115,1,0,FALSE,FALSE,"!f1 %vin% ex1","EX record is present, when subject is not assigned to an arm"
+"SD0040","V1",52,51,1,0,FALSE,FALSE,"abs(n - count) < 1e-08","Inconsistent value for LBTEST within LBTESTCD"
+"SD1282","V1",1,0,1,0,FALSE,FALSE,"names(pc) %vin% ""PCTPTREF"" && names(pc) %vin% c(""PCELTM"", ""PCTPTNUM"", ""PCTPT"")","PCTPTREF variable is present when PCELTM, PCTPTNUM, and PCTPT are missing"

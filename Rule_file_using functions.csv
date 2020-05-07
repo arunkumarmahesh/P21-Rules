@@ -1,0 +1,6 @@
+"Rules","No_of_observations_passed","No_of_observations_failed","Message"
+"SD1001",1671,1,"Subject's Duplicate Subject ID"
+"SD1334",1671,1117,"Subjects's Informed consent date is after Randomized start date"
+"SD0079",555,1,"EX record is present, when subject is not assigned to an arm"
+"SD0040",1483,0,"No records found"
+"SD1282",2101,1,"PCTPTREF variable is present when PCELTM, PCTPTNUM, and PCTPT are missing"
